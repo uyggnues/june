@@ -80,3 +80,15 @@ ul{
   height: 64px;
   cursor: pointer;
 }
+
+.every_other_page {
+  position: absolute;
+  background-image: url('white background june.png');
+  width: 100vw;
+  height:100vh;
+  top: 0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  z-index: -2;
+}
