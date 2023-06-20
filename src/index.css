@@ -5,6 +5,10 @@ header nav {
 
 header nav a{
   font-family: Arial, Helvetica, sans-serif;
+  color: #f3a9ad;
+  text-decoration: none;
+  margin-top: 1.5rem;
+  font-size: 12px;
 }
 
 .navbar{
@@ -18,21 +22,28 @@ header nav a{
   margin-left: 10vw;
   margin-right: 10vw
 }
-.nav_palette, .nav_book {
+/* .nav_palette, .nav_book {
 }
 .nav_about, .nav_contact{
-  /* margin-right: 1rem; */
-  /* float: right;
-  border: 1px solid red */
-}
+  margin-right: 1rem;
+  float: right;
+  border: 1px solid red
+} */
 
 .homepage_text{
+  position: absolute;
+  bottom: 10rem;
   width: 75%;
   font-size: 1.2rem;
+  color: #f3a9ad;
+  left: 2rem;
 }
 .home_info {
+  position: absolute;
+  bottom: 1rem;
   display: flex;
-  width: 100%
+  width: 100%;
+  color: #f3a9ad;
 }
 ul{
   font-size: 15px;
@@ -40,12 +51,25 @@ ul{
 }
 
 .main_page {
-  background-image: url('https://cdn.wallpapersafari.com/18/85/5Jcpsa.jpg');
+  background-image: url('background green.png');
   height:100vh;
   margin-top:-8px;
   margin-bottom:-8px;
   margin-left:-8px;
   margin-right:-8px;
-  background-size: cover;
-  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.mainpage{
+  height: 90%;
+  width: 100%;
+  /* border: 1px solid white */
+}
+.main_pic{
+  position: absolute;
+  margin-top: -64px;
+  height: 65%;
+  width: 100%;
+  z-index: -1;
+
 }

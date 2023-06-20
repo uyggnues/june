@@ -8,7 +8,7 @@ const Navbar = () => {
            <nav ref={navRef} className='navbar'>
                 <a href='/palette'className='nav_palette'>PALETTE</a>
                 <a href='/book'className='nav_book'>BOOK</a>
-                <a href='/' className='logo'>LOGO</a>
+                <img href='/' width={108} height={64} src={'https://cdn.discordapp.com/attachments/1120808152233955398/1120824968368898140/palettebyhazel_logo.png'} alt='LOGO'/>
                 <a href='/about'className='nav_about'>ABOUT</a>
                 <a href='/contact'className='nav_contact'>CONTACT</a>
             </nav>
