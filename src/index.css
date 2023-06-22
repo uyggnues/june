@@ -36,7 +36,7 @@ header nav a{
   width: 75%;
   font-size: 1.2rem;
   color: #f3a9ad;
-  left: 2rem;
+  left: 1rem;
 }
 .home_info {
   position: absolute;
@@ -45,9 +45,17 @@ header nav a{
   width: 100%;
   color: #f3a9ad;
 }
-ul{
+li{
   font-size: 15px;
   display: flex;
+  margin-left: 1rem;
+  width: 20rem;
+}
+
+li p{
+  width: 8rem;
+  margin-top: 0px;
+  margin-left: 5px;
 }
 
 .main_page {
