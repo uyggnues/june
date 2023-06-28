@@ -1,7 +1,10 @@
-header nav {
-  height: 100%;
-  width: 100%;
-}
+@media only screen and (max-width: 1110px){
+  
+  
+  header nav {
+    height: 100%;
+    width: 100%;
+  }
 
 header nav a{
   font-family: Arial, Helvetica, sans-serif;
@@ -30,73 +33,75 @@ header nav a{
   border: 1px solid red
 } */
 
-.homepage_text{
-  position: absolute;
-  bottom: 10rem;
-  width: 75%;
-  font-size: 1.2rem;
-  color: #f3a9ad;
-  left: 1rem;
-}
-.home_info {
-  position: absolute;
-  bottom: 1rem;
-  display: flex;
-  width: 100%;
-  color: #f3a9ad;
-}
-li{
-  font-size: 15px;
-  display: flex;
-  margin-left: 1rem;
-  width: 20rem;
-}
+  .homepage_text{
+    position: absolute;
+    bottom: 10rem;
+    width: 75%;
+    font-size: 1.2rem;
+    color: #f3a9ad;
+    left: 1rem;
+  }
+  .home_info {
+    position: absolute;
+    bottom: 1rem;
+    display: flex;
+    width: 100%;
+    color: #f3a9ad;
+  }
+  li{
+    font-size: 15px;
+    display: flex;
+    margin-left: 1rem;
+    width: 20rem;
+  }
 
-li p{
-  width: 8rem;
-  margin-top: 0px;
-  margin-left: 5px;
-}
+  li p{
+    width: 8rem;
+    margin-top: 0px;
+    margin-left: 5px;
+  }
 
-.main_page {
-  position: absolute;
-  background-image: url('background green.png');
-  width: 100vw;
-  height:100vh;
-  margin-top:-8px;
-  margin-bottom:-8px;
-  margin-left:-8px;
-  margin-right:-8px;
-  z-index: -2;
-}
+  .main_page {
+    position: absolute;
+    background-image: url('background green.png');
+    width: 100vw;
+    height:100vh;
+    margin-top:-8px;
+    margin-bottom:-8px;
+    margin-left:-8px;
+    margin-right:-8px;
+    z-index: -2;
+  }
 
-.mainpage{
-  height: 90%;
-  width: 100%;
-  /* border: 1px solid white */
-}
-.main_pic{
-  position: absolute;
-  margin-top: -64px;
-  height: 65%;
-  width: 100%;
-  z-index: -1;
-  opacity: 70%;
-}
-.logo{
-  width: 108px;
-  height: 64px;
-  cursor: pointer;
-}
+  .mainpage{
+    height: 90%;
+    width: 100%;
+    /* border: 1px solid white */
+  }
+  .main_pic{
+    position: absolute;
+    margin-top: -64px;
+    height: 65%;
+    width: 100%;
+    z-index: -1;
+    opacity: 70%;
+  }
+  .logo{
+    width: 108px;
+    height: 64px;
+    cursor: pointer;
+  }
 
-.every_other_page {
-  position: absolute;
-  background-image: url('white background june.png');
-  width: 100vw;
-  height:100vh;
-  top: 0px;
-  bottom:0px;
-  left:0px;
-  right:0px;
-  z-index: -2;
+  .every_other_page {
+    position: absolute;
+    background-image: url('white background june.png');
+    width: 100vw;
+    height:100vh;
+    top: 0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    z-index: -2;
+  }
+
 }
