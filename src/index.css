@@ -15,7 +15,7 @@ header nav {
   .navbar{
     display: flex ;
     justify-content: center;
-    gap: 3rem;
+    gap: 15rem;
     /* border: 1px solid red */
   }
   
@@ -30,19 +30,6 @@ header nav {
   float: right;
   border: 1px solid red
 } */
-
-li{
-  font-size: 15px;
-  display: flex;
-    margin-left: 1rem;
-    width: 20rem;
-  }
-  
-  li p{
-    width: 8rem;
-    margin-top: 0px;
-    margin-left: 5px;
-  }
   
   .logo{
     width: 108px;
@@ -93,7 +80,24 @@ li{
     display: flex;
     width: 100%;
     color: #f3a9ad;
+    /* border: solid 1px blue; */
+
   }
+  li{
+    font-size: 15px;
+    display: flex;
+    margin-left: 1rem;
+    width: 30rem;
+    /* border: solid 1px red; */
+    /* justify-content: center; */
+  }
+    
+    li p{
+      /* border: solid 1px red; */
+      width: 15rem;
+      margin-top: 0px;
+      margin-left: 5px;
+    }
   .homepage_text{
     position: absolute;
     bottom: -9rem;
@@ -104,6 +108,12 @@ li{
   }
 
 @media only screen and (max-width: 1250px){
+  .navbar{
+    display: flex ;
+    justify-content: center;
+    gap: 5rem;
+    /* border: 1px solid red */
+  }
 
   .main_page {
     position: absolute;
@@ -132,6 +142,18 @@ li{
     width: 100%;
     color: #f3a9ad;
   }
+  li{
+    font-size: 15px;
+    display: flex;
+      margin-left: 1rem;
+      width: 20rem;
+    }
+    
+    li p{
+      width: 8rem;
+      margin-top: 0px;
+      margin-left: 5px;
+    }
   .homepage_text{
     position: absolute;
     bottom: 10rem;
