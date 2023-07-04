@@ -19,7 +19,7 @@ const MainPage = () => {
                 <li>ADDRESS | <p>3313 Hyland Ave
                 Costa Mesa, CA 92626
                 United States</p></li>
-                <li>INSTAGRAM | @palettebyhazel</li>
+                <li>INSTAGRAM | <a href="https://www.instagram.com/palettebyhazel/">@palettebyhazel</a></li>
             </div>
         </div>
     );

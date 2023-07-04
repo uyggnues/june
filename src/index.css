@@ -91,6 +91,10 @@ header nav {
     /* border: solid 1px red; */
     /* justify-content: center; */
   }
+  li a{
+    color:#f3a9ad;
+    text-decoration: none;
+  }
     
     li p{
       /* border: solid 1px red; */
@@ -184,4 +188,49 @@ header nav {
   margin-top: 6%;
   font-size: 3.5rem;
   text-align: center;
+  color:  #6b4b3d;
+}
+
+.courses{
+  width: 100%;
+  height: 100%;
+  padding-left: 8rem;
+  padding-top: 4rem
+}
+.course{
+
+}
+.course_border{
+  border: 1px solid #6b4b3d;
+  border-radius: 2rem;
+  width: 30rem;
+  height: 15rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.booking_img{
+  width: 1rem;
+}
+.course_text{
+  margin-top: 3.5rem;
+  font-size: 23px;
+  margin-left: -2rem;
+  color:  #6b4b3d;
+}
+.course_amount{
+  font-size: 3rem;
+  width: 20rem;
+  display: flex;
+  flex-wrap: wrap;
+  color:  #6b4b3d;
+}
+.course_amount_money{
+  height: 0;
+  font-size: 1.5rem;
+  display: flex;
+}
+.course_amount_money div{
+  padding-right: .5rem;
 }
