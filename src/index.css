@@ -23,13 +23,7 @@ header nav {
     margin-left: 10vw;
     margin-right: 10vw
   }
-/* .nav_palette, .nav_book {
-}
-.nav_about, .nav_contact{
-  margin-right: 1rem;
-  float: right;
-  border: 1px solid red
-} */
+
   
   .logo{
     width: 108px;
@@ -171,13 +165,23 @@ header nav {
 
 .palette_main{
   /* border: 1px solid red; */
-  width: 80%;
-  display: flex;
-  justify-content: center;
-  margin-left: 10%;
+  width: 100%;
+  height: 80%;
+  /* margin-left: 10%; */
   margin-top: 5%;
-  font-size: 4.5rem;
-  text-align: center;
+  font-size: 3rem;
+  background-image: url('book title background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  /* border: 1px solid #6b4b3d; */
+}
+.palette_main_text{
+  width: 70%;
+  font-size: 4.75rem;
+  padding: 5rem;
+  color:  #6b4b3d;
 }
 
 .book_appointment{
