@@ -163,3 +163,25 @@ header nav {
     left: 1rem;
   }
 }
+
+
+.palette_main{
+  /* border: 1px solid red; */
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  margin-top: 5%;
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+.book_appointment{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin-left: 20%;
+  margin-top: 6%;
+  font-size: 3.5rem;
+  text-align: center;
+}
