@@ -1,8 +1,8 @@
-import Navbar from "./Navbar";
+import Navbar from "./components/Navbar";
 import {Routes, Route} from 'react-router-dom'
-import Palette from "./Palette"
-import MainPage from "./MainPage";
-import Book from "./Book";
+import Palette from "./components/Palette"
+import MainPage from "./components/MainPage";
+import Book from "./components/Book";
 
 function App() {
   return (
